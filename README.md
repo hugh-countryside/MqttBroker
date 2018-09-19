@@ -1,13 +1,10 @@
-# launch-moquette-via-spring-boot
+# mqttBroker-spring-boot
 
 Moquette in this project is based on a [moquette](https://github.com/andsel/moquette) version of 0.10. With the maven build project, you can start moquette directly through spring boot.
 
 # install
 
-```shell
-mvn clean package -DskipTests
-java -jar ./broker/target/moquette-broker-0.10.jar
-```
+spring boot 的启动类 或者打成jar包运行
 
 # extension
 
